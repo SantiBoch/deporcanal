@@ -1,0 +1,23 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# Env y credenciales
+.env
+.env.*
+backend/.env
+frontend/.env
+
+# Build output
+dist/
+build/
+frontend/dist/
+
+# Subidas locales (mejor usar S3 en prod)
+backend/uploads/
+
+# Sistema
+.DS_Store
+Thumbs.db
